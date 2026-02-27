@@ -1,0 +1,6 @@
+<script>
+  // Bypass auth by setting userRole directly in localStorage
+  localStorage.setItem('userRole', 'admin');
+  // Trigger page reload (critical for detecting the change)
+  setTimeout(() => location.reload(), 100);
+</script>
